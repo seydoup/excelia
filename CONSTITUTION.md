@@ -34,7 +34,7 @@ Le traitement d'une tâche suit un pipeline en trois phases séquentielles.
 **Acteurs** : Client ↔ Agent MOA (LLM)
 
 **Fonctionnement** :
-L'agent MOA engage un dialogue structuré avec le client pour clarifier le besoin. Il pose des questions ciblées, reformule, propose des exemples et converge vers une spécification formalisée. La spécification produite contient la description du traitement attendu, le format d'entrée et de sortie, les règles métier et les cas limites identifiés.
+L'agent MOA engage un dialogue structuré avec le client pour clarifier le besoin. Il pose des questions ciblées, reformule, propose des exemples et converge vers une spécification formalisée. La spécification produite contient la description du traitement attendu, le format d'entrée et de sortie, les règles métier et les cas limites identifiés. L'agent MOA pourrait anticiper en demandant le chargement du ou des fichiers sources pour clarifier les explications.
 
 **Livrables** : Un objet `TaskSpec` (JSON) validé par le client avant passage en phase 2.
 
